@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="favicon-title">
+  <title id="favicon-title">Kobisha Kamsabeshan</title>
+  <defs>
+    <linearGradient id="background" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#123c3d"/>
+      <stop offset="1" stop-color="#061112"/>
+    </linearGradient>
+    <linearGradient id="letter" x1="18" y1="14" x2="49" y2="51" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c1ffda"/>
+      <stop offset="0.5" stop-color="#72e6ac"/>
+      <stop offset="1" stop-color="#48cfcb"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="16" fill="url(#background)"/>
+  <rect x="4" y="4" width="56" height="56" rx="15" fill="none" stroke="#4da6a8" stroke-opacity="0.7" stroke-width="2"/>
+  <path d="M18 14h8v15.3L40.2 14H51L35.2 30.6 52 50H41.4L29.8 36.6 26 40.5V50h-8V14Z" fill="url(#letter)"/>
+</svg>
