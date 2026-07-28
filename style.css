@@ -1294,11 +1294,6 @@ main,
     font-weight: 700;
 }
 
-.footer-logo::after {
-    content: ".K";
-    color: var(--accent);
-}
-
 .footer-social {
     display: flex;
     gap: 10px;
