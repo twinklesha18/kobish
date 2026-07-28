@@ -153,7 +153,7 @@ filterButtons.forEach((button) => {
 const revealElements = [
     ...document.querySelectorAll(
         ".section-header, .about-left, .journey-card, .skill-card, .project-card, " +
-        ".experience-card, .contact-info, .contact-form"
+        ".experience-group-heading, .experience-card, .contact-info, .contact-form"
     )
 ];
 
