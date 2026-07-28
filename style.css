@@ -1290,23 +1290,32 @@ main,
 
 .footer-logo {
     display: inline-block;
+    color: #fff;
+    font-size: 1.45rem;
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    transition: transform var(--transition);
+}
+
+.footer-logo span {
+    display: inline-block;
     color: #72e6ac;
     background: linear-gradient(100deg, #c1ffda 0%, #72e6ac 30%, #48cfcb 58%, #2d7e80 82%, #72e6ac 100%);
     background-size: 200% auto;
     -webkit-background-clip: text;
     background-clip: text;
-    font-size: 1.45rem;
-    font-weight: 700;
-    letter-spacing: -0.035em;
     -webkit-text-fill-color: transparent;
     filter: drop-shadow(0 0 12px rgba(72, 207, 203, 0.2));
     animation: gradientMove 6s linear infinite;
-    transition: filter var(--transition), transform var(--transition);
+    transition: filter var(--transition);
 }
 
 .footer-logo:hover {
-    filter: drop-shadow(0 0 16px rgba(114, 230, 172, 0.38));
     transform: translateY(-2px);
+}
+
+.footer-logo:hover span {
+    filter: drop-shadow(0 0 16px rgba(114, 230, 172, 0.38));
 }
 
 .footer-social {
